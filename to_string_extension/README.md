@@ -1,6 +1,8 @@
 Description
 ---
-This package uses class_extensions to generate toString implementations.
+Uses class_extensions to generate toString for nicely looking text representation of data objects.
+
+See also [withers_extension](https://pub.dev/packages/withers_extension)
 
 Tutorial
 ---
