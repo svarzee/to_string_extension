@@ -1,0 +1,11 @@
+name: to_string_extension_annotations
+version: 0.1.0
+author: svarzee <svarzee@gmail.com>
+homepage: https://github.com/svarzee/to_string_extension
+description: >-
+  This package contains annotations which you can use for code generation with to_string_extension.
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+  class_extensions_annotations: ^0.1.0
