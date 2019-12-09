@@ -81,4 +81,4 @@ Tutorial
     }
     ```
 
-7. You can also see the [example](https://github.com/svarzee/to_string_extension/tree/master/example).
+7. You can also see the [example](https://github.com/svarzee/to_string_extension/tree/master/to_string_extension/example).
