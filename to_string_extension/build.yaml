@@ -1,0 +1,8 @@
+builders:
+  to_string:
+    import: "package:to_string_extension/builder.dart"
+    builder_factories: ["toStringBuilder"]
+    build_extensions: {".dart": ["to_string.g.part"]}
+    applies_builders: ["class_extensions|extension_start", "class_extensions|extension_end", "source_gen|combining_builder"]
+    auto_apply: dependents
+    build_to: cache
