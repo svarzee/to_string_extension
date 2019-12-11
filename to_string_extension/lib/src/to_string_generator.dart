@@ -8,13 +8,13 @@ class ToStringGenerator extends GeneratorForAnnotation<ToString> {
   String generateForAnnotatedElement(
       Element element, ConstantReader annotation, BuildStep buildStep) {
     ClassElement clazz = element;
-    final out = new StringBuffer();
+    final out = StringBuffer();
     out.writeln('String toString() => ${generateString(clazz)};');
     return out.toString();
   }
 
   String generateString(ClassElement clazz) {
-    final out = new StringBuffer();
+    final out = StringBuffer();
     out.write("'${clazz.name}(' + ");
     out.write(clazz.fields
         .map((field) => '${generateFieldString(clazz, field)} + ')
