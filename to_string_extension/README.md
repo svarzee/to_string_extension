@@ -2,7 +2,7 @@ Description
 ---
 Uses class_extensions to generate toString for nicely looking text representation of data objects.
 
-See also [withers_extension](https://pub.dev/packages/withers_extension)
+See also [withers_extension](https://pub.dev/packages/withers_extension), [json_extension](https://pub.dev/packages/json_extension)
 
 Tutorial
 ---
