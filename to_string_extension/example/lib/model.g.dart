@@ -2,20 +2,11 @@
 
 part of 'model.dart';
 
-// **************************************************************************
-// ExtensionStartGenerator
-// **************************************************************************
-
 mixin _$SomeValueClass {
-
-// **************************************************************************
-// ToStringGenerator
-// **************************************************************************
-
-String toString() => 'SomeValueClass(' + 'strVal=${(this as SomeValueClass).strVal.toString()}' + ', ' + 'intVal=${(this as SomeValueClass).intVal.toString()}' + ')';
-
-// **************************************************************************
-// ExtensionEndGenerator
-// **************************************************************************
-
+  String toString() =>
+      'SomeValueClass(' +
+      'strVal=${(this as SomeValueClass).strVal.toString()}' +
+      ', ' +
+      'intVal=${(this as SomeValueClass).intVal.toString()}' +
+      ')';
 }

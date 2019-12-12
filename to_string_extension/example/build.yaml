@@ -1,6 +1,6 @@
 targets:
   $default:
     builders:
-      to_string_extension|to_string:
+      class_extensions:
         generate_for:
         - lib/*.dart
