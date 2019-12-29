@@ -1,3 +1,6 @@
+## 0.3.0
+* Fix generator order
+
 ## 0.2.0
 * Upgrade class_extensions dependency
 
