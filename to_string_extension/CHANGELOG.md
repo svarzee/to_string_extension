@@ -1,3 +1,6 @@
+## 0.4.0
+* Upgrade dependencies
+
 ## 0.3.0
 * Fix generator order
 

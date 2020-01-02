@@ -1,8 +1,8 @@
 name: example
 
 dependencies:
-  to_string_extension_annotations: ^0.1.0
+  to_string_extension_annotations: ^0.2.0
 
 dev_dependencies:
   build_runner: ^1.0.0
-  to_string_extension: ^0.2.0
+  to_string_extension: ^0.4.0

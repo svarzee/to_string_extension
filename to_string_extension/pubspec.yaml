@@ -1,16 +1,16 @@
 name: to_string_extension
-version: 0.3.0
+version: 0.4.0
 author: svarzee <svarzee@gmail.com>
 homepage: https://github.com/svarzee/to_string_extension
 description: >-
   Uses class_extensions to generate toString for nicely looking text representation of data objects.
 environment:
-  sdk: '>=2.3.0 <3.0.0'
+  sdk: '>=2.6.0 <3.0.0'
 
 dependencies:
-  class_extensions: ^0.8.0
-  to_string_extension_annotations: ^0.1.0
-  analyzer: '>=0.37.1 <0.39.0'
+  class_extensions: ^0.10.0
+  to_string_extension_annotations: ^0.2.0
+  analyzer: ^0.39.0
   build: '>=0.12.6 <2.0.0'
   source_gen: ^0.9.0
 
