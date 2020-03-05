@@ -15,9 +15,11 @@ class ToStringGenerator extends ClassExtensionGenerator<ToString> {
   }
 
   String generateString(ClassElement clazz) {
+    final ctrParamNames = clazz.unnamedConstructor.parameters.map((e) => e.name).toSet();
     final out = StringBuffer();
     out.write("'${clazz.name}(' + ");
     out.write(clazz.fields
+        .where((field) => ctrParamNames.contains(field.name))
         .map((field) => '${generateFieldString(clazz, field)} + ')
         .join("', ' + "));
     out.write("')'");

@@ -1,3 +1,6 @@
+## 0.5.0
+* Generate only for fields in ctor
+
 ## 0.4.0
 * Upgrade dependencies
 
